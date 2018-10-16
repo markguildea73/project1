@@ -1,0 +1,47 @@
+::-webkit-scrollbar{width:10px;height:10px;}
+::-webkit-scrollbar-button{width:10px;height:10px;}
+
+div{
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  background: #111;
+}
+
+.scroll-horizontal {
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  max-height:1000px;
+  margin:0;
+  background:#abc;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+}
+.scroll-horizontal > div {
+  display:block;
+  padding:5px;
+  background:yellow;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+.squares {
+  padding:0 0 0 0;
+}
+
+iframe.embed-responsive-item {
+	
+}
+
+.squares > div{
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
