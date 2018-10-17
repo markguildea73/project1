@@ -136,15 +136,9 @@ a.navbar-band:hover {
 	font-weight: bold;
 }
 
-.callout-contact h4{
+.callout-contact >h4{
 		color:white;	
 }
-
-/* Songs page */
-
-
-/* TV page */
-
 
 /* Contact page */
 
@@ -209,8 +203,6 @@ form{
 }
 
 /* social media links */
-	
-
 
 .fa {
 	  position: relative;
@@ -289,12 +281,4 @@ h4 {
     color:blue;
     font-family: "Rancho";
 }
-
-
-
-
-
-   
-
-
 
